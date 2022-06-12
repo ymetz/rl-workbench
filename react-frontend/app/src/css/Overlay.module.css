@@ -1,0 +1,105 @@
+.close_button {
+    float: right;
+    color: grey;
+    cursor: pointer;
+}
+
+.top_heading {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.left_content {
+    position: relative;
+    display: inline-block;
+    width: 65%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.image_details {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    height: 400px;
+}
+
+.additional_info_vis {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.image_container {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 450px;
+}
+
+.image_display {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.main_related_image_container {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 380px;
+    overflow-y: scroll;
+}
+
+.overlay_content {
+    overflow: hidden;
+}
+
+.tcav_chart_container {
+    margin-top: 10px;
+}
+
+.treeContainer {
+    border-style: solid;
+    border-color: rgba(170, 170, 170, 0.2);
+    border-width: 2px;
+}
+
+.method_selection {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.activation_layer_dropdown {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.related_image_container {
+    margin-top: 10px;
+    height: 280px;
+    overflow-y: scroll;
+}
+
+.class_performance_header {
+    margin: auto;
+    text-align: center;
+}
+
+.class_performance_content {
+    margin: auto;
+    text-align: center;
+}
+
+.overlay_footer {
+    position: fixed;
+    left: 40px;
+    bottom: 0;
+    width: 100%;
+}

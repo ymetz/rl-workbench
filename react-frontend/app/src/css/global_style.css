@@ -1,0 +1,25 @@
+#content {
+    width: 100%;
+}
+
+.nav_item:after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        border-left: 15px solid transparent;
+        border-right: 20px solid transparent;
+        transform: rotate(90deg);
+        transform-origin: center;
+        position: absolute;
+        right: -27px;
+        top: calc((100% - 15px) / 2);
+        z-index: 1000000;
+
+}
+
+/* Set background of the active section's triangle  */
+      
+.nav_item.active:after {
+    border-bottom: 20px solid #009975 !important;
+}

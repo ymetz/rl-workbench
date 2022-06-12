@@ -1,0 +1,11 @@
+venv
+tool/node_modules
+PTW_model
+experiments
+envs
+documents
+data
+tool/package-lock.json
+tool/public/dist
+.git
+.idea

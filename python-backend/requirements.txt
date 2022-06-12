@@ -1,0 +1,31 @@
+fastapi==0.75.1
+uvicorn==0.17.1
+pydantic==1.9.0
+numpy==1.22.1
+scipy
+gym[atari]
+autorom[accept-rom-license]
+atari_py
+stable-baselines3
+sb3-contrib
+matplotlib
+scikit-image
+pandas
+psutil
+scikit-learn
+seaborn
+wandb
+
+torch
+captum
+tensorboard
+git+https://github.com/ymetz/imitation.git
+opencv-python-headless
+joblib
+docstring-parser
+umap-learn
+optuna
+# vizdoom== 1.1.11
+tensorflow>=2.0.0
+databases[sqlite]==0.5.5
+# git+https://github.com/ymetz/vizdoomgym.git#egg=vizdoomgym

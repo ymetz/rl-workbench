@@ -1,0 +1,8 @@
+/* custom styles */
+.content_main{
+    margin-top: 40px;
+}
+
+:global #content {
+    width: 100%;
+}

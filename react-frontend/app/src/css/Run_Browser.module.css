@@ -1,0 +1,69 @@
+.run_browser_container {
+    width: 1600px;
+}
+
+.legend_div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(196, 196, 196);
+  max-height: 415px;
+  overflow: scroll;
+}
+
+.top_button_div {
+  margin-top: 30px;
+}
+
+.group_button_div {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+
+}
+
+.group_button {
+  margin-right: 10px;
+}
+
+.table_div{
+}
+
+:global .grayAxis line{
+    stroke: #888888;
+  }
+  
+  :global  .grayAxis path{
+    stroke: #888888;
+  }
+  
+  :global  .grayAxis text{
+    stroke: #888888;
+  }
+
+  :global .toolTip {
+    position: absolute;
+    display: none;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 2px solid #6F257F;
+    padding: 14px;
+    text-align: center;
+  }
+
+  .tag_list {
+
+  }
+
+  .pill {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  :global .react-bootstrap-table .expand-cell{
+    padding-left: 3px;
+  }
+
+  :global .react-bootstrap-table .expand-cell-header{
+    padding-left: 3px;
+  }

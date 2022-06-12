@@ -1,0 +1,206 @@
+.sidebar_column {
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    border-right: solid;
+    border-right-width: 2px;
+    border-color: #999999;
+    min-height: 95vh;
+}
+
+.top_top_row {
+    height: 400x;
+}
+
+.filter_header {
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.filter_header_div{
+    background-color: #e7e7e7;
+    text-align: center;
+    margin: 0;
+    margin-left: -5;
+    margin-right: -15;
+}
+
+.filter_header_hr{
+    border-top: 2px solid rgba(0,0,0,.1);
+    margin-left: -5;
+    margin-right: -15;
+}
+
+.expand_caret {
+    margin-left: 5px;
+    color: grey;
+}
+
+.form_elements {
+    margin-left: 5px;
+}
+
+.custom_value_column {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.name_input{
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+
+.benchmark_button
+{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.reward_curve_col {
+    text-align: center;
+    border-right: 1px solid #a5a5a5;
+}
+
+.trajectory_table_col {
+    padding-left: 0;
+}
+
+.trajectory_table_div {
+    max-height: 580px;
+    overflow-y: auto;
+    padding: 0;
+    border-top: 2px solid #a5a5a5;
+}
+
+.trajectory_table_div thead th {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    border-bottom: 5px solid #dee2e6;
+}
+
+.rew_agg_dropdown_button {
+    float: right;
+}
+
+.range_header_div {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.extra_margin {
+    margin-left: 65px;
+}
+
+.player_left_button {
+    float: left;
+    margin-right: 12px;
+}
+
+.frameskip_input {
+    width: 50px;
+}
+
+.player_paragraph {
+    float: left;
+    margin-top: 3px;
+}
+
+.player_paragraph > p {
+    margin-bottom: 5px;
+}
+
+.player_right_button {
+    margin-left: 12px;
+    float: left;
+}
+
+.render_image_div {
+    margin-top: 5px;
+}
+
+.grey_text {
+    color: #6c757d;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.embedding_wrapper_div {
+    width: 100%;
+    height: 100%;
+}
+
+.embedding_overlay_div {
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.dataset_embedding_overlay_div {
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.embedding_slider_div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.embedding_data_button {
+    width: 200px;
+    margin: 30 auto;
+    display: block;
+}
+
+:global .axis-embed path {
+    display: none;
+}
+
+:global .axis-embed line {
+    stroke-opacity: 0.3;
+    shape-rendering: crispEdges;
+    color: #6c757d;
+}
+
+.modal_close_button {
+    float: right;
+    color: grey;
+    cursor: pointer;
+}
+
+.modal_top_heading {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.modal_footer {
+    position: fixed;
+    left: 40px;
+    bottom: 0;
+    width: 100%;
+}
+
+.center_button_div {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.rounded_button {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.footer_row {
+    border-top: 2px solid rgba(0,0,0,.1);
+    padding-top: 10px;
+}
+
+.pill {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }

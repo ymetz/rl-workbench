@@ -1,0 +1,207 @@
+.obs_action_space_outer {
+    z-index: 1;
+    width: 30%;    
+}
+
+.obs_action_space {
+    background-color: #ffffff;
+    border: solid;
+    border-color:#a5a5a5;
+    border-width: 2px;
+    width: 100%;
+}
+
+.widget_header {
+    height: 25px;
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #a5a5a5;    
+}
+
+.header_title {
+    margin:0 auto;
+    width: 200px;
+    text-align: center;
+}
+
+.header_button {
+    float: right;
+    width: 20px;
+    margin-top: 2px;
+    color: #a5a5a5;
+    cursor: pointer;
+}
+
+.active_button {
+    color: #007bff;
+}
+
+.obs_action_space_detail {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.reward_diagram_outer {
+    z-index: 1;
+    width: 400px;
+}
+
+.reward_diagram_outer {
+    z-index: 1;
+    width: 400px;     
+}
+
+.reward_diagram {
+    background-color: #ffffff;
+    border: solid;
+    border-color:#a5a5a5;
+    border-width: 1px;
+    width: 100%;
+    height: 250px;
+}
+
+.reward_diagram{
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #a5a5a5;
+}
+
+.reward_diagram_detail {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+}
+
+.env_diagram_outer {
+    opacity: 1.0;
+    width: 300px;
+}
+
+.env_diagram {
+    opacity: 1.0;
+}
+
+.space_widget_container {
+    display: flex;
+    height: 250px;
+    border-bottom: solid 2px#a5a5a5;
+}
+
+.spaces_menu {
+    flex: 0 0 25%;
+    border-right: solid 2px#a5a5a5;
+    overflow-x: auto;
+}
+
+.spaces_menu :global(.nav-link) {
+    padding: .3rem .2rem;
+}
+
+.spaces_menu_identifier {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.space_widget_viz {
+    flex: 1;
+}
+
+.top_left_column {
+    border-right: solid;
+    border-color:#a5a5a5;
+    border-width: 1px;
+}
+
+.top_right_column {
+    border-left: solid;
+    border-color:#a5a5a5;
+    border-width: 1px;
+}
+
+.detail_content {
+    text-align: center;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+
+.detail_content > p {
+    margin-left: 5px;
+    margin-bottom: auto;
+}
+
+.middle_column {
+    text-align: center;
+}
+
+.env_diagram_column {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.navlink_active {
+    background-color: #c9c9c9;
+}
+
+.render_image_outer {
+    opacity: 1.0;
+    width: 300px;
+    height: 280px;
+}
+
+.render_image {
+    text-align: center;
+}
+
+.render_image_div {
+    margin-top: 5px;
+}
+
+.smaller_margin {
+    margin: 2;
+}
+
+.checkpoint_outer {
+    width: 1400px;
+    height: 400px;
+    z-index: 1;
+}
+
+.checkpoint_header_title {
+    margin:0 auto;
+    width: 500px;    
+}
+
+.checkpoint {
+    border: solid;
+    border-color:#a5a5a5;
+    border-width: 1px;
+    background-color: #ffffff;
+}
+
+.center_div {
+    text-align: center;
+}
+
+.reward_diagram_div {
+    margin-left: -10px;
+}
+
+.menu_footer_bar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grey_text {
+    color: #6c757d;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+:global .list-group-item:active {
+    background-color: #a5a5a5;
+    color: #ffffff;
+}

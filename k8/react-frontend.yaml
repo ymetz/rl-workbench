@@ -1,0 +1,23 @@
+app:
+  image:
+    repository: "${CI_REGISTRY_IMAGE}/react-frontend"
+    tag: "$VERSION"
+
+  replicaCount: "$REPLICA_COUNT"
+
+  regcred: regcred-rlworkbench
+  port: 80
+
+  # health checks off
+  readinessProbe: "null"
+  livenessProbe: "null"
+
+  extraEnv:
+    BACKEND_HOSTNAME: "python-backend"
+    BACKEND_PORT: "80"
+
+  ingress:
+    enabled: true
+    url: "$URL_FRONTEND"
+    auth:
+        enabled: false

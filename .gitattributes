@@ -1,0 +1,8 @@
+data/animal_absolute_features.csv filter=lfs diff=lfs merge=lfs -text
+data/out_locations.csv filter=lfs diff=lfs merge=lfs -text
+scripts/find_goal_restricted_steps.zip filter=lfs diff=lfs merge=lfs -text
+scripts/MsPacmanNoFrameskip-v4.pkl filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text

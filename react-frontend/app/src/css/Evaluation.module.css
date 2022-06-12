@@ -1,0 +1,83 @@
+.evaluation_content {
+}
+
+.menu_row {
+    border-bottom: 2px solid #999999;
+    padding-top: 5px;
+}
+
+.grey_text {
+    color: #6c757d;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.checkmark_div {
+    width: 170px;
+}
+
+.rew_agg_dropdown_button {
+}
+
+.policy_view_div {
+}
+
+.embedding_wrapper_div {
+    width: 100%;
+    height: 55vh;
+}
+
+.embedding_control_wrapper_div {
+    position: absolute;
+    top: 120;
+    display: inline;
+    position: absolute;
+    pointer-events: none;
+}
+
+.embedding_overlay_div {
+    position: absolute;
+    display: inline-block;
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.9);
+    top: 120;
+    height: 50vh;
+}
+
+.control_overlay_div {
+    width: 30%;
+    padding: 5;
+    pointer-events: auto;
+}
+
+.widget_column {
+    border-left: 2px solid #999999;
+}
+
+.smaller_margin {
+    margin: 2;
+}
+
+.expand_caret {
+    margin-left: 5px;
+    color: grey;
+}
+
+.embedding_slider_div {
+    margin: auto;
+    width: 50%;
+}
+
+.embedding_data_button {
+    width: 200px;
+    margin: 30 auto;
+    display: block;
+}
+
+.top_checkpoint_control_div {
+    height: "5vh";
+    padding: 15px;
+    border-bottom: #999999 2px solid;
+}
+

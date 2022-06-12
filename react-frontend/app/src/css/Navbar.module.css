@@ -1,0 +1,21 @@
+.navbar {
+    height: 40px;
+}
+
+.reload_symbol {
+    color: white;
+}
+
+.reload_symbol:hover {
+    color: #bdbdbd;
+}
+
+.question_mark {
+    color: white;
+    margin-top: -4px;
+}
+
+.question_mark:hover {
+    color: #bdbdbd;
+    margin-top: -4px;
+}
