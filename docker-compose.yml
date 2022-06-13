@@ -1,0 +1,32 @@
+version: '3.7'
+
+volumes:
+    node-modules:
+
+services:
+  react-frontend:
+    container_name: react-frontend
+    image: react-frontend:latest
+    build:
+      context: ./react-frontend/
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./react-frontend/app/:/usr/src/app/
+      - node-modules:/usr/src/app/node_modules/
+    working_dir: /usr/src/app/
+    command: ["sh", "-c", "ls -al && npm install && npm run start"]
+
+  python-backend:
+    container_name: python-backend
+    image: python-backend:latest
+    build:
+      context: ./python-backend/
+      dockerfile: ./Dockerfile
+    ports:  
+      - "8080:8080"
+    volumes:
+      - ./python-backend/app/:/usr/src/app/
+    working_dir: /usr/src/app/
+    command: ["python", "app.py", "--port", "8080", "--dev"]
